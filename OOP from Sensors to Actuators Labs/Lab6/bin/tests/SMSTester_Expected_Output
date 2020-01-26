@@ -1,0 +1,112 @@
+=============== (0)
+Faculty Jonathan has campus address LAS2045 and phone extension 70139
+Faculty Jackie has campus address LAS2043 and phone extension 70130
+Course 2030 (raw marks: 0) has no instructor
+Course 1021 (raw marks: 0) has no instructor
+Course 1021 (raw marks: 0) has no instructor
+Course 3311 (raw marks: 0) has no instructor
+Course 2030 (raw marks: 0 and letter grade F) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 1021 (raw marks: 0 and letter grade F) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 1021 (raw marks: 0 and letter grade F) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 3311 (raw marks: 0 and letter grade F) has instructor (Faculty Jonathan has campus address LAS2045 and phone extension 70139)
+Student Suyeon has registered 0 courses (with GPA 0.0):
+
+Student Yuna has registered 0 courses (with GPA 0.0):
+
+Student Suyeon has registered 2 courses (with GPA 0.0):
+Course 2030 (raw marks: 0 and letter grade F) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 1021 (raw marks: 0 and letter grade F) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+
+Student Yuna has registered 2 courses (with GPA 0.0):
+Course 1021 (raw marks: 0 and letter grade F) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 3311 (raw marks: 0 and letter grade F) has instructor (Faculty Jonathan has campus address LAS2045 and phone extension 70139)
+
+=============== (1)
+Student management system currently stores no students.
+Size of SMS: 0
+=============== (2.1)
+Student management system currently stores 2 students:
+
+Student Suyeon has registered 2 courses (with GPA 0.0):
+Course 2030 (raw marks: 0 and letter grade F) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 1021 (raw marks: 0 and letter grade F) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+
+Student Yuna has registered 2 courses (with GPA 0.0):
+Course 1021 (raw marks: 0 and letter grade F) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 3311 (raw marks: 0 and letter grade F) has instructor (Faculty Jonathan has campus address LAS2045 and phone extension 70139)
+
+=============== (2.2)
+Size of SMS: 2
+Students successfully added: true
+=============== (3)
+0
+0
+0
+0
+=============== (4)
+67
+75
+88
+91
+=============== (5)
+Suyeon's GPA: 6.5
+Yuna's GPA: 8.5
+=============== (6)
+-1
+-1
+-1
+-1
+-1
+=============== (7)
+Student management system currently stores 2 students:
+
+Student Suyeon has registered 2 courses (with GPA 6.5):
+Course 2030 (raw marks: 67 and letter grade C) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 1021 (raw marks: 75 and letter grade B) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+
+Student Yuna has registered 2 courses (with GPA 8.5):
+Course 1021 (raw marks: 88 and letter grade A) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 3311 (raw marks: 91 and letter grade A+) has instructor (Faculty Jonathan has campus address LAS2045 and phone extension 70139)
+
+=============== (8)
+-1
+-1
+Suyeon's GPA: 6.5
+Yuna's GPA: 8.5
+=============== (9.1)
+Student management system currently stores 3 students:
+
+Student Suyeon has registered 2 courses (with GPA 6.5):
+Course 2030 (raw marks: 67 and letter grade C) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 1021 (raw marks: 75 and letter grade B) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+
+Student Yuna has registered 2 courses (with GPA 8.5):
+Course 1021 (raw marks: 88 and letter grade A) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 3311 (raw marks: 91 and letter grade A+) has instructor (Faculty Jonathan has campus address LAS2045 and phone extension 70139)
+
+Student Heeyeon has registered 0 courses (with GPA 0.0):
+
+=============== (9.2)
+Size of SMS: 3
+Students successfully added: true
+=============== (10)
+Student management system currently stores 3 students:
+
+Student Suyeon has registered 2 courses (with GPA 6.5):
+Course 2030 (raw marks: 67 and letter grade C) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 1021 (raw marks: 75 and letter grade B) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+
+Student Yuna has registered 2 courses (with GPA 8.5):
+Course 1021 (raw marks: 88 and letter grade A) has instructor (Faculty Jackie has campus address LAS2043 and phone extension 70130)
+Course 3311 (raw marks: 91 and letter grade A+) has instructor (Faculty Jonathan has campus address LAS2045 and phone extension 70139)
+
+Student Heeyeon has registered 3 courses (with GPA 0.0):
+Course 3311 (raw marks: 0) has no instructor
+Course 4302 (raw marks: 0) has no instructor
+Course 4080 (raw marks: 0) has no instructor
+
+=============== (11)
+74
+84
+95
+Heeyeon's GPA: 8.0
