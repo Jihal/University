@@ -1,0 +1,43 @@
+#! /usr/local/Cellar/icarus-verilog/10.3/bin/vvp
+:ivl_version "10.3 (stable)" "(v10_3)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x7fd952c077a0 .scope module, "labK" "labK" 2 1;
+ .timescale 0 0;
+L_0x7fd952c18580 .functor NOT 1, v0x7fd952c18290_0, C4<0>, C4<0>, C4<0>;
+L_0x7fd952c18610 .functor AND 1, v0x7fd952c08390_0, L_0x7fd952c18580, C4<1>, C4<1>;
+L_0x7fd952c18700 .functor AND 1, v0x7fd952c181b0_0, v0x7fd952c18290_0, C4<1>, C4<1>;
+L_0x7fd952c187f0 .functor OR 1, L_0x7fd952c188e0, L_0x7fd952c18a00, C4<0>, C4<0>;
+L_0x7fd952c188e0 .functor BUFZ 1, L_0x7fd952c18610, C4<0>, C4<0>, C4<0>;
+L_0x7fd952c18a00 .functor BUFZ 1, L_0x7fd952c18700, C4<0>, C4<0>, C4<0>;
+v0x7fd952c08390_0 .var "a", 0 0;
+v0x7fd952c17fe0_0 .net "aLower", 0 0, L_0x7fd952c18580;  1 drivers
+v0x7fd952c18080_0 .net "and_1", 0 0, L_0x7fd952c18610;  1 drivers
+v0x7fd952c18110_0 .net "and_2", 0 0, L_0x7fd952c18700;  1 drivers
+v0x7fd952c181b0_0 .var "b", 0 0;
+v0x7fd952c18290_0 .var "c", 0 0;
+v0x7fd952c18330_0 .net "lower_1", 0 0, L_0x7fd952c188e0;  1 drivers
+v0x7fd952c183d0_0 .net "lower_2", 0 0, L_0x7fd952c18a00;  1 drivers
+v0x7fd952c18470_0 .net "z", 0 0, L_0x7fd952c187f0;  1 drivers
+    .scope S_0x7fd952c077a0;
+T_0 ;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x7fd952c08390_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fd952c181b0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x7fd952c18290_0, 0, 1;
+    %delay 1, 0;
+    %vpi_call 2 16 "$display", "a=%b b=%b c=%b z=%b", v0x7fd952c08390_0, v0x7fd952c181b0_0, v0x7fd952c18290_0, v0x7fd952c18470_0 {0 0 0};
+    %vpi_call 2 17 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "labK6.v";
